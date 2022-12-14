@@ -111,6 +111,8 @@ a:active {
     text-decoration: none;
 }
 
+tr:hover {background-color: rgb(78, 78, 78);}
+
 pre {
     background-color: rgb(51, 51, 51);
     color: rgb(206, 206, 206);
