@@ -1,0 +1,296 @@
+
+html {
+    background-color:rgb(63, 63, 63);
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(143, 143, 143);
+    /*background-color: #9b8e7d6e; /* earth tone background color */
+    margin: 0;
+    padding: 0;
+  }
+
+.container {
+    max-width: 1450px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color:rgb(51, 51, 51);
+    border-radius: 10px;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.blog-post {
+    margin-bottom: 30px;
+}
+
+.blog-post h1 {
+    font-family: "Courier New", Courier, monospace; /* vintage font for headings */
+    font-size: 24px;
+    color: #d4af37; /* brass color for headings */
+    margin-bottom: 10px;
+}
+
+.blog-post p {
+    font-family: "Verdana", Verdana, monospace; /* vintage font for body text */
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.blog-roll {
+    margin-top: 30px;
+}
+
+.blog-roll h2 {
+    font-family: "Courier New", Courier, monospace; /* vintage font for headings */
+    font-size: 18px;
+    color: #d4af37; /* brass color for headings */
+    margin-bottom: 10px;
+}
+
+.blog-roll ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.blog-roll li {
+    margin-bottom: 10px;
+}
+
+.blog-roll li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.blog-roll li a:hover {
+    text-decoration: underline;
+}
+
+.search-bar {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #333; /* dark background for search bar */
+    border-radius: 5px;
+}
+.search-bar input {
+    width: 70%;
+    padding: 10px;
+}
+
+a:link {
+    color: rgb(206, 206, 206);
+    background-color: transparent;
+
+}
+  
+a:visited {
+    color: rgb(206, 206, 206);
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: rgb(206, 206, 206);
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:active {
+    color: rgb(206, 206, 206);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+pre {
+    background-color: rgb(51, 51, 51);
+    color: rgb(206, 206, 206);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+code {
+    background-color: rgb(51, 51, 51);
+    color: rgb(206, 206, 206);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Set the background color of the navigation bar to a dark bronze */
+.navbar {
+    background-color: rgb(47, 47, 47);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 140px;
+  }
+  
+  
+  /* Use a decorative font for the title of the navigation bar */
+  .navbar h2 {
+    color: #e6e2d3;
+    font-family: "Brass Instruments", sans-serif;
+    font-size: 18px;
+    margin: 0 0 10px 0;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Use flexbox to make the list items in the navigation bar stretch to fill the available space */
+  .navbar ul {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  /* Style the list items in the navigation bar */
+  .navbar li {
+    color: #e6e2d3;
+    list-style:none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: left;
+  }
+  
+  /* Style the links in the navigation bar */
+  .navbar a {
+    color: #a8a8a8;
+    display: block;
+    text-decoration: none;
+  }
+  
+  /* Style the links when they are hovered over */
+  .navbar a:hover {
+    color: #fff;
+  }
+
+  
+  /* Set different icons for each link in the navigation bar */
+  .navbar li:nth-child(1) a::before {
+    height: 16px;
+    width: 16px;
+    margin-right: 10px;
+    position: absolute;
+    left: 10px;
+  }
+  
+  .navbar li:nth-child(2) a::before {
+    height: 16px;
+    width: 16px;
+    /* Position the icon to the left of the link text */
+    margin-right: 10px;
+    position: absolute;
+    left: 10px;
+  }
+
+  .navbar li:nth-child(3) a::before {
+    height: 16px;
+    width: 16px;
+    /* Position the icon to the left of the link text */
+    margin-right: 10px;
+    position: absolute;
+    left: 10px;
+  }
+
+  .navbar li:nth-child(4) a::before {
+    height: 16px;
+    width: 16px;
+    /* Position the icon to the left of the link text */
+    margin-right: 10px;
+    position: absolute;
+    left: 10px;
+  }
+  
+  #mods {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #mods td, #mods th {
+    padding-top: 9px;
+    padding-bottom:9px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  
+  
+  #mods th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: gray;
+  }
+
+  .btn {
+    background-color: rgb(94, 94, 94);
+    border: none;
+    color: white;
+    padding: 7px 8px;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 5px;
+  }
+
+  #btn {
+    background-color: rgb(94, 94, 94);
+    border: none;
+    color: white;
+    padding: 7px 8px;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 5px;
+  }
+
+  #btn:hover {
+    background-color: rgb(73, 73, 73);
+  }
+
+  .btn:hover {
+    background-color: rgb(73, 73, 73);
+  }
+  
+  .dropdown {
+    position: absolute;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  #myInput {
+    background-position: 10px 10px;
+    font-size: 15px;
+    padding: 6px;
+    border:none;
+    margin-bottom: 17px;
+    border-radius: 5px;
+    background-color:rgb(0, 0, 0);
+  }
+
+  input:focus {
+    outline: none;
+  }
+  
