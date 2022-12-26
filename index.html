@@ -69,7 +69,7 @@
 </head>
 <br>
 <br>
-  <body onload="myFunction()" style="margin:0;">
+  <body onload="loader()" style="margin:0;">
     <div id="loader"></div>
     
     <div class="container" style="display:none;" id="myDiv" class="animate-bottom">
@@ -78,7 +78,7 @@
           <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Beat_Saber_Logo.png" alt="Logo" height="150px" width="130px">
         </div>
         <div class="blog-post">
-            <input style="color: white;" type="text" id="myInput" onkeyup="myFunction()" placeholder="Search..." title="Search for mods">
+            <input style="color: white;" type="text" id="myInput" onkeyup="search()" placeholder="Search..." title="Search for mods">
             <table id="mods">
                 <tr>
                   <th>Mod</th>
@@ -309,6 +309,14 @@
                     <td><a href="https://github.com/WaffleTheCool/Adblock/releases/download/1.25.1/Adblock.qmod" download><button class="btn">AdBlock</button></a></td>
                 </tr>
                 <tr>
+                    <td>PitchBlaq</td>
+                    <td>1.25.1</td>
+                    <td>WaffleTheCool</td>
+                    <td>Simple plugin that can completely disable lights (events)<br> and spectrogram (if the environment has one).<br>
+                        Config menu includes light and spectrogram.</td>
+                    <td><a href="https://github.com/WaffleTheCool/PitchBlaq/releases/download/v0.1.0/PitchBlaq.qmod" download><button class="btn">PitchBlaq</button></a></td>
+                </tr>
+                <tr>
                     <td>CustomMainMenu</td>
                     <td>1.25.1</td>
                     <td>WaffleTheCool</td>
@@ -477,6 +485,14 @@
                     <td><a href="https://github.com/mineblock11/Colorama/releases/download/2.1.0/Colorama-2.1.0-1251.qmod" download><button class="btn">Colorama</button></a></td>
                 </tr>
                 <tr>
+                    <td>Too Many Tweaks</td>
+                    <td>1.25.1</td>
+                    <td>itsmineblock11</td>
+                    <td>Adds many togglable tweaks and options to tailor the game to your desire. <br>
+                        This update merges NoPromo functionality into Too Many Tweaks</td>
+                    <td><a href="https://mineblock11.dev/beat-saber/mod/toomanytweaks" download><button class="btn">Too Many Tweaks</button></a></td>
+                </tr>
+                <tr>
                     <td>Nightcore</td>
                     <td>1.25.1</td>
                     <td>Tatenshi</td>
@@ -487,10 +503,31 @@
                         - Option to disable compensation with negative speed modifier</td>
                     <td><a href="https://github.com/Tatenshi/BSNightcoreQuest/releases/download/v0.1.0/BSNightcoreQuest_1_25_1.qmod" download><button class="btn">Nightcore</button></a></td>
                 </tr>
+                <tr>
+                    <td>Qosmetics - Whackers</td>
+                    <td>1.25.1</td>
+                    <td>RedBrumbler</td>
+                    <td>Adds custom sabers to your game!</td>
+                    <td><a href="https://github.com/Qosmetics/Qosmetics-Sabers/releases/download/v0.1.1/QosmeticsWhackers.qmod" download><button class="btn">Qos-Whackers</button></a></td>
+                </tr>
+                <tr>
+                    <td>Qosmetics - Notes</td>
+                    <td>1.25.1</td>
+                    <td>RedBrumbler</td>
+                    <td>Adds custom notes to your game!</td>
+                    <td><a href="https://github.com/Qosmetics/Qosmetics-Notes/releases/download/v0.1.1/QosmeticsCyoobs.qmod" download><button class="btn">Qos-Notes</button></a></td>
+                </tr>
+                <tr>
+                    <td>Qosmetics - Boxes</td>
+                    <td>1.25.1</td>
+                    <td>RedBrumbler</td>
+                    <td>Adds custom walls to your game!</td>
+                    <td><a href="https://github.com/Qosmetics/Qosmetics-Walls/releases/download/v0.1.1/QosmeticsBoxes.qmod" download><button class="btn">Qos-Boxes</button></a></td>
+                </tr>
               </table>     
         </div>
     <script>
-        function myFunction() {
+        function search() {
             var input, filter, table, tr, td, i, txtValue;
             input = document.getElementById("myInput");
             filter = input.value.toUpperCase();
@@ -512,7 +549,7 @@
     <script>
         var myVar;
         
-        function myFunction() {
+        function loader() {
           myVar = setTimeout(showPage, 1300);
         }
         
