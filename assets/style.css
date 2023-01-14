@@ -91,30 +91,6 @@ td {
     padding: 10px;
 }
 
-a:link {
-    color: rgb(206, 206, 206);
-    background-color: transparent;
-
-}
-  
-a:visited {
-    color: rgb(206, 206, 206);
-    background-color: transparent;
-    text-decoration: none;
-}
-  
-a:hover {
-    color: rgb(206, 206, 206);
-    background-color: transparent;
-    text-decoration: none;
-}
-  
-a:active {
-    color: rgb(206, 206, 206);
-    background-color: transparent;
-    text-decoration: none;
-}
-
 tr:hover {background-color: rgba(73, 73, 73, 0.616);}
 
 pre {
