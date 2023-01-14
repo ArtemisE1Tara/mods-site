@@ -320,3 +320,15 @@ code {
   .dropdown:hover .dropbtn {
     background-color: #464646;
   }
+
+.side {
+  display: flex;
+  position: absolute;
+  box-shadow: 0px 0px 7px #696969;
+  border-radius: 50%;
+}
+
+.side-text {
+  display: flex;
+  position: absolute;
+}

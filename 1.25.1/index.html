@@ -20,6 +20,15 @@
         text-decoration:none;
     }
 
+    html {
+    height: auto;
+    min-height: 100%;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/fd/LGBTQ%2B_rainbow_flag_Quasar_%22Progress%22_variant.svg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-size: cover;
+}
     /* Center the loader */
     #loader {
     position: absolute;
@@ -72,7 +81,7 @@
   <body onload="loader()" style="margin:0;">
     <div id="loader"></div>
     
-    <div class="container" style="display:none;" id="myDiv" class="animate-bottom">
+    <div class="container" style="display:none; background-color:#333333cb;" id="myDiv" class="animate-bottom">
         <br>
         <div class="logo">
           <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Beat_Saber_Logo.png" alt="Logo" height="150px" width="130px">
