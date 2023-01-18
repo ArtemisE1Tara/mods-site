@@ -312,3 +312,37 @@ code {
   display: flex;
   position: absolute;
 }
+
+.button.is-small {
+  font-size: .75rem;
+}
+.button.is-link {
+  background-color: #485fc7;
+  border-color: transparent;
+  color: #fff;
+}
+.button,.button:hover {
+  color:  #ffde1a;
+}
+.button {
+  outline: none!important;
+  box-shadow: none!important;
+  outline-style: none!important;
+  background-color: var(--foregroundItem);
+  transition: color var(--transitionTime);
+}
+.button {
+  background-color: #fff;
+  border-color: #dbdbdb;
+  border-width: 1px;
+  color: #363636;
+  cursor: pointer;
+  justify-content: center;
+  padding-bottom: calc(0.5em - 1px);
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: calc(0.5em - 1px);
+  text-align: center;
+  white-space: nowrap;
+  border-radius: 5px;
+}

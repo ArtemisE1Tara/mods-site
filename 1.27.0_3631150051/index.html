@@ -9,12 +9,7 @@
   <link rel="stylesheet" href="../assets/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="preload" href="/assets/space.jpg" as="image">
-  <link
-         rel="stylesheet"
-         href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-         integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-         crossorigin="anonymous"
-      />
+  <script src="https://kit.fontawesome.com/dda69fb3c7.js" crossorigin="anonymous"></script>
   <style>
     p {
         text-decoration:none;
@@ -93,38 +88,6 @@
     .button.is-small:not(.is-rounded) {
     border-radius: 2px;
 }
-.button.is-small {
-    font-size: .75rem;
-}
-.button.is-link {
-    background-color: #485fc7;
-    border-color: transparent;
-    color: #fff;
-}
-.button,.button:hover {
-    color:  #ffde1a;
-}
-.button {
-    outline: none!important;
-    box-shadow: none!important;
-    outline-style: none!important;
-    background-color: var(--foregroundItem);
-    transition: color var(--transitionTime);
-}
-.button {
-    background-color: #fff;
-    border-color: #dbdbdb;
-    border-width: 1px;
-    color: #363636;
-    cursor: pointer;
-    justify-content: center;
-    padding-bottom: calc(0.5em - 1px);
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-top: calc(0.5em - 1px);
-    text-align: center;
-    white-space: nowrap;
-}
   </style>
 </head>
   <body onload="loader()" style="margin:0;">
@@ -132,9 +95,9 @@
     
     <div class="container" style="display:none; background-color:#333333cb;" id="myDiv" class="animate-bottom">
         <br>
-        <a href="../index.html"><img src="../assets/211686_back_arrow_icon.png" style="display: flex; position: absolute;" height="90px" width="90px"></a>
+        <a href="../index.html" style="display: flex; position: absolute;"><button class="button is-link is-small"><span class="icon"></span><i class="fas fa-arrow-left"></i>   <span>Back</span></button></a>
         <div class="logo">
-            <a href="../index.html"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Beat_Saber_Logo.png" alt="Logo" height="150px" width="130px"></a>
+            <h1 style="color: white;">Mods (1.27.0)</h1>
         </div>
         <div class="blog-post">
             <input style="color: white;" type="text" id="myInput" onkeyup="search()" placeholder="Search..." title="Search for mods" style="background-color: black;">
@@ -145,7 +108,13 @@
                   <th>Author</th>
                   <th>Description</th>
                   <th>Download</th>
-                  <a href="https://scoresaber.com/quest" target="_blank"><button class="button is-link is-small"><span class="icon"></span> <span>ScoreSaber</span> <i class="fas fa-arrow-right"></i></button></a>
+                </tr>
+                <tr>
+                    <td>ScoreSaber</td>
+                    <td>1.27.0</td>
+                    <td>Umbranox</td>
+                    <td>Posts scores to <a href="https://scoresaber.com/rankings/">scoresaber.com</a><br>and shows in-game leaderboards.</td>
+                    <td>            <a href="https://scoresaber.com/quest" target="_blank"><button class="btn"><span class="icon"></span> <span>ScoreSaber</span> <i class="fas fa-arrow-up-right-from-square"></i></button></a></td>
                 </tr>
                 <tr>
                     <td>Beat Leader</td>
