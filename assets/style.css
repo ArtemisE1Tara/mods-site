@@ -10,17 +10,15 @@ html {
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: rgb(143, 143, 143);
-    /*background-color: #9b8e7d6e; /* earth tone background color */
     margin: 0;
-    padding: 0;
+    padding: 10px;
+    background-color:rgba(51, 51, 51, 0.87);
   }
 
 .container {
-    max-width: 1300px;
     margin: 0 auto;
     padding: 10px;
     background-color:rgba(51, 51, 51, 0.87);
-
 }
 
 td {
@@ -388,7 +386,7 @@ code {
 
   .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto auto;
     padding: 10px;
   }
   .grid-item {
