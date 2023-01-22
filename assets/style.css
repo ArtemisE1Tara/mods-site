@@ -226,6 +226,7 @@ code {
     cursor: pointer;
     font-size: 15px;
     border-radius: 5px;
+    transition: background-color 0.3s ease;
   }
 
   #btn {
@@ -350,3 +351,56 @@ code {
   white-space: nowrap;
   border-radius: 5px;
 }
+
+.hidden {
+  display: none;
+  }
+
+  @keyframes slide-in-left {
+  from {
+      transform: translateX(-20%);
+  }
+  to {
+      transform: translateX(0);
+  }
+  }
+
+  @keyframes slide-out-left {
+  from {
+      transform: translateX(0);
+  }
+  to {
+      transform: translateX(-100%);
+  }
+  }
+
+  .row-slide-out {
+  animation: slide-out-left 0.5s ease-out;
+  animation-direction: reverse;
+  }
+
+
+
+  .left-slide-in {
+  animation: slide-in-left 0.5s ease-out;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  .grid-item {
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  ul li {
+    display: inline-block;
+  }
+  li {
+    border-left: 2px solid rgb(100, 100, 100);
+    padding: 3px;
+  }
+  
