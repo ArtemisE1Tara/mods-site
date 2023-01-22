@@ -1,22 +1,15 @@
-
-const dropdownButton = document.getElementById("dropdown");
+const toggleButton = document.getElementById("dropdown");
 const table = document.getElementById("mods");
-const rows = document.querySelectorAll("#mods tr");
-let isTableVisible = false;
+let isTableVisible = true;
 
-dropdownButton.addEventListener("click", function() {
+toggleButton.addEventListener("click", function() {
     if (isTableVisible) {
         table.style.display = "none";
-        dropdownButton.innerHTML = '<i class="fas fa-eye-slash"></i> Show Mods';
-        rows.forEach(row => row.classList.remove("row-slide-in"));
-        rows.forEach(row => row.classList.add("row-slide-out"));
+        toggleButton.innerHTML = '<i class="fas fa-eye-slash"></i> Show Mods';
         isTableVisible = false;
     } else {
         table.style.display = "table";
-        dropdownButton.innerHTML = '<i class="fas fa-eye"></i> Hide Mods';
-        rows.forEach(row => row.classList.remove("row-slide-out"));
-        rows.forEach(row => row.classList.add("row-slide-in"));
+        toggleButton.innerHTML = '<i class="fas fa-eye"></i> Hide Mods';
         isTableVisible = true;
     }
 });
-
