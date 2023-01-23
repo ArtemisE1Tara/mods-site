@@ -1,0 +1,103 @@
+/*-----Reset-----*/
+form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 1em 0;
+    border-radius: 5px;
+  }
+  
+  .button {
+    margin: 0px;
+  }
+  
+  input, .button {
+    border: none;
+    background-image: none;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  textarea {
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  
+  .button, input, textarea {
+    font-family: "Saira Semi Condensed", sans-serif;
+  }
+  
+
+  
+  .input {
+    width: 100%;
+    margin-bottom: 0.75em;
+  }
+  
+  .icon-container {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+  
+  .icon {
+    background-color: #fff;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    padding: 0.8em;
+    display: inline-block;
+    align-self: stretch;
+    color: #ddd;
+    transition: color 0.75s;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  .icon-content {
+    background-color: #fff;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    padding: 0.8em;
+    width: 100%;
+    z-index: 2;
+  }
+  .icon-content:focus {
+    outline: 2px solid #f857a8;
+  }
+  .icon-content:focus ~ .icon {
+    color: #f857a8;
+  }
+  
+  .btn2 {
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    padding: 0.8em;
+    border-radius: 2em;
+  }
+  .btn2:hover {
+    background: #f857a8;
+    background: -webkit-linear-gradient(45deg, #f857a8, #ff5858);
+    background: linear-gradient(45deg, #f857a8, #ff5858);
+    color: #fff;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.125);
+    animation-name: button-hover;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.38, 0.38, 0.12, 0.96);
+  }
+  
+  @keyframes button2-hover {
+    100% {
+      background: #f857a8;
+      background: -webkit-linear-gradient(45deg, #f857a8, #ff5858);
+      background: linear-gradient(45deg, #f857a8, #ff5858);
+      color: #fff;
+      border-radius: 0px;
+    }
+  }

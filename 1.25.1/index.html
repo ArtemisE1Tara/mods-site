@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="../assets/style.css">
   <link rel="preload" href="/assets/terminator.jpg" as="image">
   <script src="https://kit.fontawesome.com/dda69fb3c7.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../assets/form.css">
   <style>
     p {
         text-decoration:none;
@@ -87,7 +88,7 @@
     
     <div style="display:none;" id="myDiv" class="animate-bottom">
         <br>
-        <a href="../index.html" style="display: flex; position: absolute;"><button class="btn"><span class="icon"></span><i class="fas fa-arrow-left"></i>   <span>Back</span></button></a>
+        <a href="../index.html" style="display: flex; position: absolute;"><button class="btn"><i class="fas fa-arrow-left"></i> Back</button></a>
         <div class="logo">
             <h1 style="color: white;">Mods (1.25.1)</h1>
             <button id="dropdown" class="btn" style="background-color: red;"><i class="fas fa-eye"></i> Hide Mods</button>
@@ -671,20 +672,61 @@
                               <td><a href="https://github.com/ArtemisE1Tara"><i class="fa-brands fa-github"></i> ArtemisE1Tara</a></td>
                           </tr>
                       </table>
-                  </div>  
-                  
+                  </div>             
+              <div class="grid-item">
+                  <table style="text-align: left;">
+                  <tr><th>Copyright ©2023 ahmedsecen.dev</th></tr>
+                  <tr>
+                    <td>
+                  <ul style="text-align: left;">
+                      <li><a href="https://discord.gg/fdjcvNszxe"><i class="fa-brands fa-discord"></i> Discord</a></li>
+                      <br>
+                      <li><a href="https://github.com/ArtemisE1Tara/mods-site"><i class="fa-brands fa-github"></i> Github</i></a></li>
+                      <br>
+                      <li><a href="https://bsmg.wiki/"><i class="fas fa-wiki"></i> BSMG Wiki</i></a></li>
+                  </ul>
+                  </td>
+                  </tr>
+                  </table>
               </div>
-  
-                
-          <div>
-              <p>Copyright ©2023 ahmedsecen.dev</p>
-              <nav>
-              <ul>
-                  <li><a href="https://discord.gg/fdjcvNszxe"><i class="fa-brands fa-discord"></i> Discord</a></li>
-                  <li><a href="https://github.com/ArtemisE1Tara/mods-site"><i class="fa-brands fa-github"></i> Github</i></a></li>
-                  <li><a href="https://bsmg.wiki/"><i class="fas fa-wiki"></i> BSMG Wiki</i></a></li>
-              </ul>
-              </nav>
+          <div class="grid-item">
+          <table>
+            <tr>
+            <th>Contact Us</th>
+            </tr>
+            <tr>
+              <td>
+            <form action="https://formspree.io/f/xwkjpzbg"
+            method="POST"
+            enctype="multipart/form-data"
+            id="contact-form">
+              <div class="input mb">
+                <div class="hidden"><label for="name" class="required">Name</label></div>
+                <div class="icon-container"><input type="text" name="name" id="name" placeholder="Name" class="icon-content" required><span class="fas fa-user icon"></span></div>
+              </div>
+            
+              <div class="input mb">
+                <div class="hidden"><label for="email" class="required">Email</label></div>
+                <div class="icon-container"><input type="email" name="email" id="email" placeholder="Email" class="icon-content" required><span class="fas fa-envelope icon"></span></div>
+              </div>
+            
+              <div class="input mb">
+                <div class="hidden"><label for="subject" class="required">Subject</label></div>
+                <div class="icon-container"><input type="text" name="subject" id="subject" placeholder="Subject" class="icon-content" required><span class="fas fa-pencil-alt icon"></span></div>
+              </div>
+            
+              <div class="input mb">
+                <div class="hidden"><label for="message" class="required">Message</label></div>
+                <div class="icon-container"><textarea name="message" id="message" cols="10" rows="5" placeholder="Message..." class="icon-content" required></textarea><span class="fas fa-quote-left icon"></span></div>
+              </div>
+            
+              <div class="input mb">
+                <button type="submit" class="btn text-center">Send Message</button>
+              </div>
+            </form>
+            </td>
+            </tr>
+          </table>
           </div>
           </footer>
         </div>

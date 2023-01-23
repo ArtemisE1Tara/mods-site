@@ -395,11 +395,5 @@ code {
     text-align: center;
   }
 
-  ul li {
-    display: inline-block;
-  }
-  li {
-    border-left: 2px solid rgb(100, 100, 100);
-    padding: 3px;
-  }
+
   
