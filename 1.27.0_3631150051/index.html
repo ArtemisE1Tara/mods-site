@@ -5,6 +5,7 @@
   <meta name="description" content="Version: 1.27.0_3631150051">
   <meta name="author" content="ArtemisE1Tara">
   <meta name="keywords" content="Beat Saber, Quest, Mods">
+  <meta property="og:image" content="https://ucarecdn.com/19427ffb-16b4-4ca6-a520-01a4bb2aca7a/">
   <title>Quest Beat Saber Mods</title>
   <link rel="stylesheet" href="../assets/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -12,6 +13,10 @@
   <script src="https://kit.fontawesome.com/dda69fb3c7.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="../assets/form.css">
   <style>
+    #coremods {
+    display: none;
+    }
+
     p {
         text-decoration:none;
         text-align: left;
@@ -92,13 +97,29 @@
         <div class="logo">
             <h1 style="color: white;">Mods (1.27.0)</h1>
           <button id="dropdown" class="btn" style="background-color: red;"><i class="fas fa-eye"></i> Hide Mods</button>
+          <button id="coredropdown" class="btn"><i class="fas fa-eye-slash"></i> Show Core Mods</button>
         </div>
+        <div id="coremods" class="hidden left-slide-in">
+            <a href="https://github.com/sc2ad/Il2CppQuestTypePatching/releases/download/v0.15.22/CustomTypes.qmod"><button class="btn" style="margin: 5px">custom-types <i class="fas fa-floppy-disk"></i></button></a>
+            <a href="https://github.com/sc2ad/BeatSaber-Quest-Codegen/releases/download/v0.32.0/Codegen.qmod"><button class="btn" style="margin: 5px">codegen <i class="fas fa-floppy-disk"></i></button></a>
+            <a href="https://github.com/darknight1050/QuestUI/releases/download/v0.17.10/QuestUI.qmod"><button class="btn" style="margin: 5px">questui <i class="fas fa-floppy-disk"></i></button></a>
+            <a href="https://github.com/Metalit/PlayerDataKeeper/releases/download/v0.1.6/PlayerDataKeeper.qmod"><button class="btn" style="margin: 5px">datakeeper <i class="fas fa-floppy-disk"></i></button></a>
+            <a href="https://github.com/darknight1050/SongLoader/releases/download/v0.10.13/SongLoader.qmod"><button class="btn" style="margin: 5px">songloader <i class="fas fa-floppy-disk"></i></button></a>
+            <br>
+            <a href="https://github.com/BSMGPink/PinkCore/releases/download/v1.8.7/PinkCore.qmod"><button class="btn" style="margin: 5px">pinkcore <i class="fas fa-floppy-disk"></i></button></a>
+            <a href="https://github.com/darknight1050/SongDownloader/releases/download/v0.5.5/SongDownloader.qmod"><button class="btn" style="margin: 5px">songdownloader <i class="fas fa-floppy-disk"></i></button></a>
+            <a href="https://github.com/Lauriethefish/ModList/releases/download/v0.1.10/ModList.qmod"><button class="btn" style="margin: 5px">mod-list <i class="fas fa-floppy-disk"></i></button></a>
+            <a href="https://github.com/Metalit/PlaylistCore/releases/download/1.1.4/PlaylistCore.qmod"><button class="btn" style="margin: 5px">playlistcore <i class="fas fa-floppy-disk"></i></button></a>
+            <a href="https://github.com/Metalit/PlaylistManager/releases/download/v1.2.3/PlaylistManager.qmod"><button class="btn" style="margin: 5px">playlistmanager <i class="fas fa-floppy-disk"></i></button></a>
+            </div>
+        <br>
+
         <div class="blog-post">
             <input style="color: rgb(0, 0, 0); background-color: #ffffff;" type="text" id="myInput" onkeyup="search()" placeholder="Search..." title="Search for mods" style="background-color: black;">
             <table id="mods" class="hidden left-slide-in">
                 <tr>
-                  <th>Mod</th>
-                  <th>BS Version</th>
+                  <th>Name</th>
+                  <th>Beatsaber Version</th>
                   <th>Author</th>
                   <th>Description</th>
                   <th>Download</th>
@@ -639,6 +660,7 @@
     <script src="../js/loader.js"></script>
     <script src="../js/search.js"></script>
     <script src="../js/table.js"></script>
+    <script src="../js/coremods.js"></script>
         </div>
   </body>
 </html>
