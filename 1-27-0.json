@@ -1,0 +1,470 @@
+[
+    {
+        "name": "BeatLeader",
+        "description": "Posts scores to https://beatleader.xyz/ and shows in-game leaderboards.",
+        "id": "BeatLeader",
+        "version": "0.5.5",
+        "download": "https://github.com/BeatLeader/beatleader-qmod/releases/download/v0.5.5/BeatLeader_1_27_0.qmod",
+        "source": "https://github.com/BeatLeader/beatleader-qmod/",
+        "author": "NSGolova"
+    },
+    {
+        "name": "Replay",
+        "description": "Watch back your best scores!",
+        "id": "replay",
+        "version": "0.2.0",
+        "download": "https://github.com/Metalit/Replay/releases/download/v0.2.0/Replay.qmod",
+        "source": "https://github.com/Metalit/Replay/",
+        "author": "Metalit"
+    },
+    {
+        "name": "Qounters-",
+        "description": "Store brand version of Counters+ for the Quest version of Beat Saber. Adds a variety of configurable Qounters to display statistics in-game.",
+        "id": "qounters-minus",
+        "version": "1.2.2",
+        "download": "https://github.com/Metalit/bsq-qounters-minus/releases/download/1.2.2/Qounters-.qmod",
+        "source": "https://github.com/Metalit/bsq-qounters-minus/",
+        "author": "Metalit, danrouse"
+    },
+    {
+        "name": "SaberTrailer",
+        "description": "Make simple but powerful changes to your saber trail",
+        "id": "sabertrailer",
+        "version": "0.1.0",
+        "download": "https://github.com/Metalit/SaberTrailer/releases/download/v0.1.0/SaberTrailer.qmod",
+        "source": "https://github.com/Metalit/SaberTrailer/",
+        "author": "Metalit"
+    },
+    {
+        "name": "BeatSaviorData",
+        "description": "Gives a detailed overview of your performance when finishing a level!",
+        "id": "beatsaviordata",
+        "version": "2.0.2",
+        "download": "https://github.com/Metalit/QuestBeatSaviourData/releases/download/v2.0.2/BeatSaviorData.qmod",
+        "source": "https://github.com/Metalit/QuestBeatSaviourData/",
+        "author": "Metalit"
+    },
+    {
+        "name": "AccMiss",
+        "description": "Miss when you acc bad",
+        "id": "accmiss",
+        "version": "0.1.0",
+        "download": "https://github.com/Metalit/AccMiss/releases/download/v0.1.0/AccMiss.qmod",
+        "source": "https://github.com/Metalit/AccMiss/",
+        "author": "Metalit"
+    },
+    {
+        "name": "HitScoreVisualizer",
+        "description": "Changes the scores that pop up when you hit notes",
+        "id": "HitScoreVisualizer",
+        "version": "2.7.1",
+        "download": "https://github.com/Christoffyw/HitScoreVisualizer/releases/download/2.7.1/HitScoreVisualizer.qmod",
+        "source": "https://github.com/Christoffyw/HitScoreVisualizer/",
+        "author": "Christoffyw, Metalit"
+    },
+    {
+        "name": "Slice Visualizer",
+        "description": "See your slices right in front of you",
+        "id": "slicevisualizer",
+        "version": "5.0.2",
+        "download": "https://github.com/Metalit/SliceVisualizer/releases/download/v5.0.2/SliceVisualizer.qmod",
+        "source": "https://github.com/Metalit/SliceVisualizer/",
+        "author": "Henwill8, Metalit"
+    },
+    {
+        "name": "JDFixer",
+        "description": "Configure your Jump Distance, Speed, and more with ultra precision!",
+        "id": "jdfixer",
+        "version": "3.0.0",
+        "download": "https://github.com/Metalit/QuestJDFixer/releases/download/v3.0.0/JDFixer.qmod",
+        "source": "https://github.com/Metalit/QuestJDFixer/",
+        "author": "Metalit"
+    },
+    {
+        "name": "StopForgettingMySettings",
+        "description": "Makes the game remember override environment settings.",
+        "id": "settings",
+        "version": "0.3.1",
+        "download": "https://cdn.discordapp.com/attachments/1040061584506105906/1066695160643207168/StopForgettingMySettings.qmod",
+        "source": "",
+        "author": "Metalit"
+    },
+    {
+        "name": "Transitions",
+        "description": "Speed up or remove boring transitions in the game",
+        "id": "transitions",
+        "version": "1.1.3",
+        "download": "https://github.com/Metalit/Transitions/releases/download/v1.1.3/Transitions.qmod",
+        "source": "https://github.com/Metalit/Transitions/",
+        "author": "Metalit"
+    },
+    {
+        "name": "BetterSongSearch",
+        "description": "Search and download songs with a lot of filtering and sorting options and without frustration!",
+        "id": "BetterSongSearch",
+        "version": "1.0.3",
+        "download": "https://github.com/bsq-ports/BetterSongSearchQuest/releases/download/v1.0.3-bs-1.27.0/BetterSongSearch.qmod",
+        "source": "https://github.com/bsq-ports/BetterSongSearchQuest/",
+        "author": "FrozenAlex, FernTheDev, FutureMapper, and Christoffyw"
+    },
+    {
+        "name": "ImageFactory",
+        "description": "Place and customize images throughout your game.",
+        "id": "ImageFactory",
+        "version": "1.0.1",
+        "download": "https://github.com/OptimusChen/ImageFactory-Quest/releases/download/v1.0.1/ImageFactory.qmod",
+        "source": "https://github.com/OptimusChen/ImageFactory-Quest/",
+        "author": "Optimus"
+    },
+    {
+        "name": "BeatLeader",
+        "description": "Posts scores to https://beatleader.xyz/ and shows in-game leaderboards.",
+        "id": "BeatLeader",
+        "version": "0.5.4",
+        "download": "https://github.com/BeatLeader/beatleader-qmod/releases/download/v0.5.4/BeatLeader_1_27_0.qmod",
+        "source": "https://github.com/BeatLeader/beatleader-qmod/",
+        "author": "NSGolova"
+    },
+    {
+        "name": "ScoreSaber",
+        "description": "Allows you to upload scores to an online leaderboard at https://scoresaber.com. Earn PP from ranked maps and compare scores with others.",
+        "id": "scoresaber",
+        "version": "2.0.0",
+        "download": "https://scoresaber.com/quest",
+        "source": "https://github.com/ScoreSaber/ScoreSaber-Quest",
+        "author": "Umbranox, Optimus, RedBrumbler"
+    },
+    {
+        "name": "Nya",
+        "description": "Beat Saber mod for displaying nya-tastic images from various anime themed web APIs!",
+        "id": "Nya",
+        "version": "0.2.7",
+        "download": "https://github.com/FrozenAlex/Nya-quest/releases/download/v0.2.7-bs-1.27.0/Nya.qmod",
+        "source": "https://github.com/FrozenAlex/Nya-quest/",
+        "author": "FrozenAlex"
+    },
+    {
+        "name": "BetterSongSearch",
+        "description": "Search and download songs with a lot of filtering and sorting options and without frustration!",
+        "id": "BetterSongSearch",
+        "version": "1.0.2",
+        "download": "https://github.com/bsq-ports/BetterSongSearchQuest/releases/download/v1.0.2-bs-1.27.0/BetterSongSearch.qmod",
+        "source": "https://github.com/bsq-ports/BetterSongSearchQuest/",
+        "author": "FrozenAlex, FernTheDev, FutureMapper, and Christoffyw"
+    },
+    {
+        "name": "BetterSongSearch",
+        "description": "Search and download songs with a lot of filtering and sorting options and without frustration!",
+        "id": "BetterSongSearch",
+        "version": "1.0.1",
+        "download": "https://github.com/bsq-ports/BetterSongSearchQuest/releases/download/v1.0.1-bs-1.27.0/BetterSongSearch.qmod",
+        "source": "https://github.com/bsq-ports/BetterSongSearchQuest/",
+        "author": "FrozenAlex, FernTheDev, FutureMapper, and Christoffyw"
+    },
+    {
+        "name": "Pause Remapper",
+        "description": "Allows the user to change which buttons pause the game!",
+        "id": "PauseRemapper",
+        "version": "1.1.0",
+        "download": "https://github.com/speecil/PauseRemapper/releases/download/v1.1.0/Pause.Remapper.qmod",
+        "source": "https://github.com/speecil/PauseRemapper/",
+        "author": "Speecil"
+    },
+    {
+        "name": "QonsistentSaberColors",
+        "description": "Menu saber colors reflect in game saber colors.",
+        "id": "qonsistentsabercolors",
+        "version": "0.1.0",
+        "download": "https://github.com/kodenamekrak/QonsistentSaberColors/releases/download/0.1.0/QonsistentSaberColors.qmod",
+        "source": "https://github.com/kodenamekrak/QonsistentSaberColors/",
+        "author": "KodenameKRAK, Henri"
+    },
+    {
+        "name": "Qosmetics Cyoobs",
+        "description": "Qosmetics module that adds Cyoob capabilities",
+        "id": "qosmetics-notes",
+        "version": "0.1.3",
+        "download": "https://github.com/Qosmetics/Qosmetics-Notes/releases/download/v0.1.3/QosmeticsCyoobs.qmod",
+        "source": "https://github.com/Qosmetics/Qosmetics-Notes/",
+        "author": "RedBrumbler"
+    },
+    {
+        "name": "Qosmetics Boxes",
+        "description": "Qosmetics module that adds Box capabilities",
+        "id": "qosmetics-walls",
+        "version": "0.1.3",
+        "download": "https://github.com/Qosmetics/Qosmetics-Walls/releases/download/v0.1.3/QosmeticsBoxes.qmod",
+        "source": "https://github.com/Qosmetics/Qosmetics-Walls/",
+        "author": "RedBrumbler"
+    },
+    {
+        "name": "Qosmetics Whackers",
+        "description": "Qosmetics module that adds Whacker capabilities",
+        "id": "qosmetics-sabers",
+        "version": "0.1.4",
+        "download": "https://github.com/Qosmetics/Qosmetics-Sabers/releases/download/v0.1.4/QosmeticsWhackers.qmod",
+        "source": "https://github.com/Qosmetics/Qosmetics-Sabers/",
+        "author": "RedBrumbler"
+    },
+    {
+        "name": "SearchFixes",
+        "description": "An improved search algorithm for Beat Saber",
+        "id": "SearchFixes",
+        "version": "1.2.4",
+        "download": "https://github.com/FranciscoRibeiro03/SearchFixesQuest/releases/download/v1.2.4/SearchFixes.qmod",
+        "source": "https://github.com/FranciscoRibeiro03/SearchFixesQuest/",
+        "author": "rui2015"
+    },
+    {
+        "name": "BSNightcoreQuest",
+        "description": "Removes pitch compensation to make songs go nightcore on different speed",
+        "id": "BSNightcoreQuest",
+        "version": "0.1.0",
+        "download": "https://github.com/Tatenshi/BSNightcoreQuest/releases/download/v0.1.0/BSNightcoreQuest_1_27_0.qmod",
+        "source": "https://github.com/Tatenshi/BSNightcoreQuest/",
+        "author": "Tatenshi"
+    },
+    {
+        "name": "CrashReporter",
+        "description": "Automatically upload crashes.",
+        "id": "crashreporter",
+        "version": "0.1.8",
+        "download": "https://github.com/darknight1050/CrashReporter/releases/download/v0.1.8/CrashReporter.qmod",
+        "source": "https://github.com/darknight1050/CrashReporter/",
+        "author": "darknight1050"
+    },
+    {
+        "name": "ChatUI",
+        "description": "Shows your Twitch Chat Ingame",
+        "id": "chatui",
+        "version": "0.2.11",
+        "download": "https://github.com/darknight1050/ChatUI/releases/download/v0.2.11/ChatUI.qmod",
+        "source": "https://github.com/darknight1050/ChatUI/",
+        "author": "darknight1050"
+    },
+    {
+        "name": "RandomSongPicker",
+        "description": "Adds a button, that picks a random song out of the current list",
+        "id": "RandomSongPicker",
+        "version": "0.2.2",
+        "download": "https://github.com/Tatenshi/RandomSongPicker/releases/download/v0.2.2/RandomSongPicker_1_27_0.qmod",
+        "source": "https://github.com/Tatenshi/RandomSongPicker/",
+        "author": "Tatenshi"
+    },
+    {
+        "name": "Vent",
+        "description": "I swear you just vented...",
+        "id": "vent",
+        "version": "1.0.0",
+        "download": "https://github.com/mineblock11/Vent/releases/download/1.0.0/Vent-1.0.0+1270_3631150051.qmod",
+        "source": "https://github.com/mineblock11/Vent/",
+        "author": "mineblock11"
+    },
+    {
+        "name": "TooManyTweaks",
+        "description": "Adds many togglable tweaks and options to tailor the game to your desire.",
+        "id": "toomanytweaks",
+        "version": "0.3.1",
+        "download": "https://github.com/mineblock11/TooManyTweaks/releases/download/0.3.1/TooManyTweaks-0.3.1+1270_3631150051.qmod",
+        "source": "https://github.com/mineblock11/TooManyTweaks/",
+        "author": "mineblock11"
+    },
+    {
+        "name": "Speecil Tweaks",
+        "description": "This mod brings a bunch of tweaks to the table, such as: Menu Tweaks, Gameplay Tweaks, Results Tweaks and more!",
+        "id": "SpeecilTweaks",
+        "version": "0.1.0",
+        "download": "https://github.com/speecil/SpeecilTweaks-BSML/releases/download/v1.1.0/SpeecilTweaks.qmod",
+        "source": "https://github.com/speecil/SpeecilTweaks-BSML/",
+        "author": "Speecil"
+    },
+    {
+        "name": "AccessAbility",
+        "description": "Gives more options to play Beat Saber, mainly made for those who can't play the game intended",
+        "id": "AccessAbility",
+        "version": "0.2.0",
+        "download": "https://github.com/NuggoDEV/AccessAbility/releases/download/0.2.0/AccessAbility.qmod",
+        "source": "https://github.com/NuggoDEV/AccessAbility/",
+        "author": "Nuggo"
+    },
+    {
+        "name": "Mapping Extensions",
+        "description": "This adds a host of new things you can do with your maps as a mapper, and allows you to play said maps as a player. An update of the port of the PC original mod by Kyle 1413. Previously maintained by zoller27osu.\n\nReminder: difficulties that require both Mapping Extensions and Noodle Extensions at the same time do not work. This is intended behaviour on Noodle's part.",
+        "id": "MappingExtensions",
+        "version": "0.22.1",
+        "download": "https://github.com/rcelyte/MappingExtensions/releases/download/0.22.1/MappingExtensions.qmod",
+        "source": "https://github.com/rcelyte/MappingExtensions/",
+        "author": "StackDoubleFlow, rxzz0, rcelyte"
+    },
+    {
+        "name": "MultiplayerCore",
+        "description": "Port of MultiplayerCore, the PC mod that adds features to BeatTogether Multiplayer.",
+        "id": "multiplayer-core",
+        "version": "1.3.6",
+        "download": "https://github.com/EnderdracheLP/MultiplayerCore.Quest/releases/download/1.3.6/MultiplayerCore_1.3.6.qmod",
+        "source": "https://github.com/EnderdracheLP/MultiplayerCore.Quest/",
+        "author": "EnderdracheLP, cubic,Goobie"
+    },
+    {
+        "name": "QuestSounds",
+        "description": "Allows users to change their sfx sounds and in-game music easily!\n\n  Avoid using any files that use MPEG format like MP3 or MP2 unless you don't mind brief freezing upon loading\n\nSounds you can change and their default folder Path:\n-  HitSounds:                       sdcard/ModData/com.beatgames.beatsaber/Mods/QuestSounds/HitSounds/\n-  BadHitSounds:        sdcard/ModData/com.beatgames.beatsaber/Mods/QuestSounds/BadHitSounds/\n-  NoteMissedSounds:    sdcard/ModData/com.beatgames.beatsaber/Mods/QuestSounds/NoteMissedSounds/\n-  MenuMusic:                sdcard/ModData/com.beatgames.beatsaber/Mods/QuestSounds/MenuMusic/\n-  MenuClicks:                sdcard/ModData/com.beatgames.beatsaber/Mods/QuestSounds/MenuClicks/\n-  Firework:                          sdcard/ModData/com.beatgames.beatsaber/Mods/QuestSounds/Fireworks/\n-  LevelCleared:                sdcard/ModData/com.beatgames.beatsaber/Mods/QuestSounds/LevelCleared/\n-  LevelFailed:                sdcard/ModData/com.beatgames.beatsaber/Mods/QuestSounds/LevelFailed/\n-  LobbyMusic:                sdcard/ModData/com.beatgames.beatsaber/Mods/QuestSounds/LobbyMusic/",
+        "id": "QuestSounds",
+        "version": "1.4.0",
+        "download": "https://github.com/EnderdracheLP/QuestSounds/releases/download/1.4.0/QuestSounds.qmod",
+        "source": "https://github.com/EnderdracheLP/QuestSounds/",
+        "author": "Rugtveit, EnderdracheLP"
+    },
+    {
+        "name": "Nya",
+        "description": "Beat Saber mod for displaying nya-tastic images from various anime themed web APIs!",
+        "id": "Nya",
+        "version": "0.2.6",
+        "download": "https://github.com/FrozenAlex/Nya-quest/releases/download/v0.2.6-bs-1.27.0/Nya.qmod",
+        "source": "https://github.com/FrozenAlex/Nya-quest/",
+        "author": "FrozenAlex"
+    },
+    {
+        "name": "Clock Mod",
+        "description": "Displays the time in game. Alternatively also the Battery Percentage",
+        "id": "ClockMod",
+        "version": "1.8.0",
+        "download": "https://github.com/EnderdracheLP/ClockMod/releases/download/1.8.0/ClockMod.qmod",
+        "source": "https://github.com/EnderdracheLP/ClockMod/",
+        "author": "BoopetyDoopety, EnderdracheLP"
+    },
+    {
+        "name": "SmallQubes",
+        "description": "Your lovely default cubes, but smoll. Modifiers compatible!",
+        "id": "SmallQubes",
+        "version": "0.2.1",
+        "download": "https://github.com/NSGolova/SmallQubes/releases/download/v0.2.1/SmallQubes.qmod",
+        "source": "https://github.com/NSGolova/SmallQubes/",
+        "author": "NSGolova"
+    },
+    {
+        "name": "BeatLeader",
+        "description": "Posts scores to https://beatleader.xyz/ and shows in-game leaderboards.",
+        "id": "BeatLeader",
+        "version": "0.5.3",
+        "download": "https://github.com/BeatLeader/beatleader-qmod/releases/download/v0.5.3/BeatLeader_1_27_0.qmod",
+        "source": "https://github.com/BeatLeader/beatleader-qmod/",
+        "author": "NSGolova"
+    },
+    {
+        "name": "ShortSaber",
+        "description": "Change the length of the saber",
+        "id": "ShortSaber",
+        "version": "0.1.4",
+        "download": "https://github.com/oli-ctrl/ShortSaber/releases/download/v0.1.4/ShortSaber.qmod",
+        "source": "https://github.com/oli-ctrl/ShortSaber/",
+        "author": "Oli"
+    },
+    {
+        "name": "Acculight",
+        "description": "changes the lighting on the result screen depending on the accuracy gained in the song",
+        "id": "acculight",
+        "version": "0.1.3",
+        "download": "https://github.com/oli-ctrl/acculight/releases/download/v0.1.3/Acculight.qmod",
+        "source": "https://github.com/oli-ctrl/acculight/",
+        "author": "Oli"
+    },
+    {
+        "name": "SessionQombo",
+        "description": "A mod for beat saber that makes the combo counter persist across level load, like in the game `In The Groove` ",
+        "id": "SessionQombo",
+        "version": "0.1.1",
+        "download": "https://github.com/oli-ctrl/SessionQombo/releases/download/v0.1.1/SessionQombo.qmod",
+        "source": "https://github.com/oli-ctrl/SessionQombo/",
+        "author": "Original by Headaassbtw, ported by Oli"
+    },
+    {
+        "name": "Streamer Tools",
+        "description": "Allows applications to get information from the game like, currently played song.\n\nMod Features:\n- Provide information about your game via wifi (more info: https://github.com/EnderdracheLP/streamer-tools/wiki)\n- Provide your watchers with information about your song\nby @EnderdracheLP and @ComputerElite\n\nClient features:\n- Various Overlays to add to OBS (including a overlay builder)\n- Fetching of information from your Quest\nby @ComputerElite\n\nClient Download (needed on PC): https://github.com/ComputerElite/streamer-tools-client/releases\nMod Setup video: https://www.youtube.com/watch?v=1OMHjjSi-5s",
+        "id": "Streamer-Tools",
+        "version": "0.9.0",
+        "download": "https://github.com/EnderdracheLP/streamer-tools/releases/download/0.9.0/Streamer-Tools.qmod",
+        "source": "https://github.com/EnderdracheLP/streamer-tools/",
+        "author": "EnderdracheLP, ComputerElite, Lauriethefish, Phaze"
+    },
+    {
+        "name": "RedBar",
+        "description": "Change the color of your health bar according to your health",
+        "id": "RedBar",
+        "version": "1.12.0",
+        "download": "https://github.com/ComputerElite/RedBar/releases/download/1.13.0/RedBar.qmod",
+        "source": "https://github.com/ComputerElite/RedBar/",
+        "author": "ComputerElite"
+    },
+    {
+        "name": "Third Person mod",
+        "description": "Features:\n- Play in third person\n- Fix your camera to your saber\n- Fix your camera\n- Fly through the enviorment",
+        "id": "Play3rdPer",
+        "version": "0.11.0",
+        "download": "https://github.com/ComputerElite/play3rdper/releases/download/0.11.0/Play3rdPer.qmod",
+        "source": "https://github.com/ComputerElite/play3rdper/",
+        "author": "ComputerElite"
+    },
+    {
+        "name": "CrashMod",
+        "description": "Crash your game if you are bad and good",
+        "id": "CrashMod",
+        "version": "0.11.0",
+        "download": "https://github.com/ComputerElite/CrashMod/releases/download/0.11.0/CrashMod.qmod",
+        "source": "https://github.com/ComputerElite/CrashMod/",
+        "author": "ComputerElite"
+    },
+    {
+        "name": "MultiplayerCore",
+        "description": "Port of MultiplayerCore, the PC mod that adds features to BeatTogether Multiplayer.",
+        "id": "multiplayer-core",
+        "version": "1.3.5",
+        "download": "https://github.com/EnderdracheLP/MultiplayerCore.Quest/releases/download/1.3.5/MultiplayerCore_1.3.5.qmod",
+        "source": "https://github.com/EnderdracheLP/MultiplayerCore.Quest/",
+        "author": "EnderdracheLP, cubic,Goobie"
+    },
+    {
+        "name": "BeatTogether",
+        "description": "A multiplayer private server for the modding community. Supports crossplay between PC and Quest.",
+        "id": "BeatTogether",
+        "version": "1.7.2",
+        "download": "https://github.com/BeatTogether/BeatTogether.Quest/releases/download/v1.7.2/BeatTogether_v1.7.2.qmod",
+        "source": "https://github.com/BeatTogether/BeatTogether.Quest/",
+        "author": "BeatTogether Team"
+    },
+    {
+        "name": "PitchBlaq",
+        "description": "Simple plugin that can completely disable lights (events) and spectrogram (if the environment has one). Config menu include light and spectrogram.",
+        "id": "PitchBlaq",
+        "version": "0.1.2",
+        "download": "https://github.com/WaffleTheCool/PitchBlaq/releases/download/v0.1.2/PitchBlaq.qmod",
+        "source": "https://github.com/WaffleTheCool/PitchBlaq/",
+        "author": "Loloppe | Waffle"
+    },
+    {
+        "name": "Adblock",
+        "description": "???",
+        "id": "adblock",
+        "version": "0.1.0",
+        "download": "https://github.com/WaffleTheCool/Adblock/releases/download/1.27.0_3631150051/Adblock.qmod",
+        "source": "https://github.com/WaffleTheCool/Adblock/",
+        "author": "Waffle"
+    },
+    {
+        "name": "NoParticles",
+        "description": "Allows you to disable various particles throughout the game",
+        "id": "NoParticles",
+        "version": "0.1.8",
+        "download": "https://github.com/kodenamekrak/NoParticles/releases/download/0.1.8/NoParticles-1.27.0.qmod",
+        "source": "https://github.com/kodenamekrak/NoParticles/",
+        "author": "AllyPallyUK, KodenameKRAK"
+    },
+    {
+        "name": "Colorama",
+        "description": "Change the colors of the menu and other neat color related options.",
+        "id": "colorama",
+        "version": "2.1.0",
+        "download": "https://github.com/mineblock11/Colorama/releases/download/2.1.0/Colorama-2.1.0+1270_3631150051.qmod",
+        "source": "https://github.com/mineblock11/Colorama/",
+        "author": "mineblock11"
+    }
+]
