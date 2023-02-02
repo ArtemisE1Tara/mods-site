@@ -1,12 +1,11 @@
 html {
   height: auto;
   min-height: 100%;
-  background-image: url('../assets/terminator.jpg');
+  background-image: url('../assets/ree-dark-bg.webp');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  background-blend-mode: darken;
-  background-color:rgba(51, 51, 51, 0.87);
+ 
 }
 
 body {
@@ -35,16 +34,6 @@ td {
     width: 200px;
 }
 
-.blog-post {
-    margin-bottom: 30px;
-}
-
-.blog-post h1 {
-    font-family: "Courier New", Courier, monospace; /* vintage font for headings */
-    font-size: 24px;
-    color: #d4af37; /* brass color for headings */
-    margin-bottom: 10px;
-}
 
 .blog-post p {
     font-family: "Verdana", Verdana, monospace; /* vintage font for body text */
@@ -388,11 +377,23 @@ code {
   .grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto auto ;
-    padding: 10px;
   }
   .grid-item {
     padding: 20px;
     font-size: 15px;
+    text-align: center;
+  }
+
+  table {
+    background-color: #1a1a1a;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 40%);
+    max-width: 70%;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    margin: 0 auto;
+  }
+  .center {
     text-align: center;
   }
 

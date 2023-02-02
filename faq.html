@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Quest Mods">
+  <meta name="author" content="ArtemisE1Tara">
+  <meta name="keywords" content="Beat Saber, Quest, Mods">
+  <title>Quest Beat Saber Mods</title>
+  <link rel="stylesheet" href="./assets/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preload" href="/assets/terminator.jpg" as="image">
+  <script src="https://kit.fontawesome.com/dda69fb3c7.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./assets/form.css">
+  <style>
+    p {
+      color: gray;
+      font-size: 15px;
+    }
+    p:link {
+        color: rgb(101, 113, 153);
+        text-decoration:none;
+    }
+
+    a:link {
+        color: rgb(167, 59, 194);
+        text-decoration:none;
+    }
+
+    a:visited {
+        color: rgb(167, 59, 194);
+        text-decoration:none;
+    }
+
+    a:hover {
+        color: rgb(167, 59, 194);
+        text-decoration:none;
+    }
+
+/* Center the loader */
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 85px;
+    height: 85px;
+    margin: -76px 0 0 -76px;
+    border: 16px solid #ffffff;
+    border-radius: 50%;
+    border-top: 16px solid #000000;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    }
+
+ 
+
+    @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+    }
+
+    /* Add animation to "page content" */
+    .animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+    }
+
+    @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+    }
+
+    @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+    }
+
+    #myDiv {
+    display: none;
+    }
+
+    .faq-container {
+        text-align: center;
+        margin: 0 auto;
+        width: 80%;
+    }
+    .question-box {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .question-box:hover {
+    background-color: #e6e6e6;
+    box-shadow: 0px 0px 10px #aaa;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  .answer {
+    display: none;
+    padding: 10px 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  .answer.open {
+  display: block;
+    }
+  </style>
+</head>
+  <body onload="loader()" style="margin:0;">
+    <div id="loader"></div>
+    
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+
+        <h1>Frequently Asked Questions</h1>
+        <div class="faq-container">
+        <div class="question-box">
+            <h2>What is this website about?</h2>
+            <div class="answer">
+            <p>This website is a resource for information and resources related to a specific topic or industry.</p>
+            </div>
+        </div>
+        <div class="question-box">
+            <h2>How can I contact customer support?</h2>
+            <div class="answer">
+            <p>You can contact customer support by emailing support@example.com or by calling 555-555-5555.</p>
+            </div>
+        </div>
+        <div class="question-box">
+            <h2>What is your refund policy?</h2>
+            <div class="answer">
+            <p>We offer a 30-day refund policy for any products or services purchased on our website. Please contact customer support for more information.</p>
+            </div>
+        </div>
+        <div class="question-box">
+            <h2>How do I access my account?</h2>
+            <div class="answer">
+            <p>You can access your account by clicking on the "My Account" button at the top of the website and entering your login information.</p>
+            </div>
+        </div>
+        </div>
+    <script>
+        var myVar;
+        
+        function loader() {
+        myVar = setTimeout(showPage, 600);
+        }
+        
+        function showPage() {
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("myDiv").style.display = "block";
+        }
+      </script>
+      <script>
+       var faqContainer = document.querySelector('.faq-container');
+        faqContainer.addEventListener('click', function(event) {
+            var target = event.target;
+            if (target.tagName === 'H2') {
+            var answer = target.nextElementSibling;
+            answer.classList.toggle('open');
+            }
+        });
+      </script>
+  </body>
+</html>

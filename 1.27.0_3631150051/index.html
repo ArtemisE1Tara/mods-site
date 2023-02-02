@@ -95,7 +95,6 @@
         <a href="../index.html" style="display: flex; position: absolute;"><button class="btn"><i class="fas fa-arrow-left"></i> Back</button></a>
         <div class="logo">
             <h1 style="color: white;">Mods (1.27.0)</h1>
-          <button id="dropdown" class="btn" style="background-color: red;"><i class="fas fa-eye"></i> Hide Mods</button>
           <button id="coredropdown" class="btn"><i class="fas fa-eye-slash"></i> Show Core Mods</button>
         </div>
         <div id="coremods" class="hidden left-slide-in">
@@ -114,10 +113,10 @@
         <br>
 
         <div class="blog-post">
-            <input style="color: rgb(0, 0, 0); background-color: #ffffff;" type="text" id="myInput" onkeyup="search()" placeholder="Search..." title="Search for mods" style="background-color: black;">
-            <table id="mods" class="hidden left-slide-in">
+            <table id="mods">
                 <tr>
-                  <th>Name</th>
+                  <th><input style="color: rgb(255, 255, 255); background-color: #252525;" type="text" id="myInput" onkeyup="search()" placeholder="Search..." title="Search for mods" style="background-color: black;">
+                  </th>
                   <th>Beatsaber Version</th>
                   <th>Author</th>
                   <th>Description</th>
@@ -296,16 +295,53 @@
                     <td><a href="https://github.com/NuggoDEV/AccessAbility/releases/download/0.2.0/AccessAbility.qmod" download><button class="btn">AccessAbility <i class="fas fa-floppy-disk"></i></button></a></td>
                 </tr>
                 <tr>
+                    <td>IntroSkip</td>
+                    <td>1.27.0</td>
+                    <td>metal_marmott</td>
+                    <td>Skip through any sections of song when there are no notes</td>
+                    <td><a href="https://github.com/Royston1999/IntroSkip-Quest/releases/download/v1.0.2/IntroSkip_v1.0.2.qmod" download><button class="btn">IntroSkip <i class="fas fa-floppy-disk"></i></button></a></td>
+                </tr>
+                <tr>
+                    <td>SliceDetails</td>
+                    <td>1.27.0</td>
+                    <td>metal_marmott</td>
+                    <td>A popup UI in the pause menu and results screen that gives you very detailed information about your swings</td>
+                    <td><a href="https://github.com/Royston1999/SliceDetails-Quest/releases/download/v1.1.2/slicedetails_v1.1.2.qmod" download><button class="btn">SliceDetails <i class="fas fa-floppy-disk"></i></button></a></td>
+                </tr>
+                <tr>
+                    <td>ScorePercentage</td>
+                    <td>1.27.0</td>
+                    <td>metal_marmott</td>
+                    <td>Popup ui on the level select screen to view information about your <br>scores including misses/badcuts (also shows pp for ranked levels :ppbotFlushed:)</td>
+                    <td><a href="https://github.com/Royston1999/ScorePercentage-Quest/releases/download/v3.2.0/scorepercentage_v3.2.0.qmod" download><button class="btn">ScorePercentage <i class="fas fa-floppy-disk"></i></button></a></td>
+                </tr>
+                <tr>
+                    <td>SaberTailor</td>
+                    <td>1.25.1</td>
+                    <td>metal_marmott</td>
+                    <td>Lets you change your sabers more to your own liking. <br>
+                        Comes with a port of ControllerSettingsHelper included.</td>
+                    <td><a href="https://github.com/Royston1999/Saber-Tailor-quest/releases/download/v2.0.0/sabertailor_v2.0.0.qmod" download><button class="btn">SaberTailor <i class="fas fa-floppy-disk"></i></button></a></td>
+                </tr>
+                <tr>
                     <td>NoParticles</td>
                     <td>1.27.0</td>
-                    <td>kodenamekrak.exe</td>
+                    <td>kodenamekrak</td>
                     <td>Lets you disable various particles throughout the game.</td>
                     <td><a href="https://github.com/kodenamekrak/NoParticles/releases/download/0.1.8/NoParticles-1.27.0.qmod" download><button class="btn">NoParticles <i class="fas fa-floppy-disk"></i></button></a></td>
                 </tr>
                 <tr>
+                    <td>PracticeAddons</td>
+                    <td>1.27.0</td>
+                    <td>kodenamekrak</td>
+                    <td>- Lets you set a time to automatically restart the song in practice (essentially looping)<br>
+                        - Saves practice settings per difficulty for each song between sessions</td>
+                    <td><a href="https://github.com/kodenamekrak/PracticeAddons/releases/download/0.1.0/PracticeAddons.qmod" download><button class="btn">PracticeAddons <i class="fas fa-floppy-disk"></i></button></a></td>
+                </tr>
+                <tr>
                     <td>QonsistentSaberColors</td>
                     <td>1.27.0</td>
-                    <td>kodenamekrak.exe</td>
+                    <td>kodenamekrak</td>
                     <td>Menu saber colors reflect in game saber colors.</td>
                     <td><a href="https://github.com/kodenamekrak/QonsistentSaberColors/releases/download/0.1.0/QonsistentSaberColors.qmod" download><button class="btn">SaberColors <i class="fas fa-floppy-disk"></i></button></a></td>
                 </tr>
@@ -469,6 +505,13 @@
                     <td><a href="https://github.com/Tatenshi/BSNightcoreQuest/releases/download/v0.1.0/BSNightcoreQuest_1_27_0.qmod" download><button class="btn">Nightcore <i class="fas fa-floppy-disk"></i></button></a></td>
                 </tr>
                 <tr>
+                    <td>RandomSongPicker</td>
+                    <td>1.25.1</td>
+                    <td>Tatenshi</td>
+                    <td>Adds a random song button, that selects<br> a random song in the list.</td>
+                    <td><a href="https://github.com/Tatenshi/RandomSongPicker/releases/download/v0.3.0/RandomSongPicker_1_27_0.qmod" download><button class="btn">RandomSongPicker <i class="fas fa-floppy-disk"></i></button></a></td>
+                </tr>
+                <tr>
                     <td>Qosmetics - Whackers</td>
                     <td>1.27.0</td>
                     <td>RedBrumbler</td>
@@ -494,7 +537,7 @@
               <footer style="text-align: left;">
                 <div class="grid-container">
                   <div class="grid-item">
-                      <table style="text-align: left;">
+                      <table style="text-align: left; padding: 10px; padding-left: 20px; padding-right: 20px; border-radius: 10px;">
                       <tr>
                           <th>Mod Creators</th>
                       </tr>
@@ -558,7 +601,7 @@
                   </table>
                   </div>
                   <div class="grid-item">
-                      <table style="text-align: left;">
+                    <table style="text-align: left; padding: 10px; padding-left: 20px; padding-right: 20px; border-radius: 10px;">
                           <tr>
                               <th>Team Members</th>
                           </tr>
@@ -598,7 +641,7 @@
                       </table>
                   </div>  
                   <div class="grid-item">
-                      <table style="text-align: left;">
+                    <table style="text-align: left; padding: 10px; padding-left: 20px; padding-right: 20px; border-radius: 10px;">
                           <tr>
                               <th>Website Contributors</th>
                           </tr>
@@ -608,7 +651,7 @@
                       </table>
                   </div>             
               <div class="grid-item">
-                  <table style="text-align: left;">
+                <table style="text-align: left; padding: 10px; padding-left: 20px; padding-right: 20px; border-radius: 10px;">
                   <tr><th>Copyright ©2023 ahmedsecen.dev</th></tr>
                   <tr>
                     <td>
@@ -624,7 +667,7 @@
                   </table>
               </div>
           <div class="grid-item">
-          <table>
+            <table style="padding: 10px; padding-left: 20px; padding-right: 20px; border-radius: 10px;">
             <tr>
             <th>Contact Us</th>
             </tr>
